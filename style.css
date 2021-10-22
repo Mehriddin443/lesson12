@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  position: relative;
+}
+div img:first-child {
+  position: relative;
+  top: 65px;
+  left: 165px;
+  right: 1235px;
+}
+div img:last-child {
+  position: absolute;
+  top: 72px;
+  left: 174px;
+  right: 1243px;
+}
+
+.menu {
+  left: 305px;
+  top: 72px;
+  position: absolute;
+}
+.menu a {
+  width: 338px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 10px;
+  color: #25202f;
+}
+.vector {
+  position: absolute;
+  left: 950px;
+  top: 5px;
+  cursor: pointer;
+}
+.vector img {
+  width: 35px;
+  border-radius: 50%;
+  border: solid rgb(255, 255, 255);
+}
+.rasm {
+  float: 50%;
+  position: absolute;
+  left: 500px;
+  top: 10px;
+}
+.rasm img {
+  width: 435px;
+  height: 522px;
+}
+.yozuv {
+  position: absolute;
+  left: 165px;
+  top: 228px;
+}
+.width > div {
+  width: 50%;
+  float: left;
+}
+/* @media screen and (max-width: 1000px) {
+  .width > div {
+    width: 100%;
+  }
+} */
+
+.let {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 165px;
+  top: 440px;
+
+  background: #8643dc;
+  border-radius: 100px;
+  position: absolute;
+  cursor: pointer;
+  left: 214px;
+  top: 454px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.service {
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 165px;
+  top: 768px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #8643dc;
+}
+.chiziq {
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  left: 165px;
+  top: 802px;
+
+  background: #8643dc;
+}
+.yozuv1 {
+  position: absolute;
+  width: 246px;
+  height: 96px;
+  left: 165px;
+  top: 819px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #25202f;
+}
+.icon > div {
+  position: absolute;
+  width: 33.3%;
+  float: left;
+}
+.yozuv2 > div:first-child > img:first-child {
+  position: absolute;
+  width: 62px;
+  height: 60.59px;
+  left: 165px;
+  top: 965px;
+}
+.yozuv2 > div:first-child > img:last-child {
+  position: absolute;
+  left: 187px;
+  height: 28.18px;
+  width: 16.91px;
+  top: 978px;
+}
+.yozuv3 > div:first-child > img:first-child {
+  position: absolute;
+  width: 62px;
+  height: 60.59px;
+  left: 545px;
+  top: 965px;
+}
+.yozuv3 > div:first-child > img:last-child {
+  position: absolute;
+  left: 560px;
+  height: 25px;
+  top: 980px;
+}
+.yozuv4 > div:first-child > img:first-child {
+  position: absolute;
+  width: 62px;
+  height: 60.59px;
+  left: 925px;
+  top: 965px;
+}
+.yozuv4 > div:first-child > img:last-child {
+  position: absolute;
+  left: 940px;
+  height: 25px;
+  top: 980px;
+}
+.UX {
+  position: absolute;
+  width: 139px;
+  height: 32px;
+  left: 247px;
+  top: 980px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #25202f;
+}
+.text {
+  position: absolute;
+  width: 350px;
+  height: 121px;
+  left: 165px;
+  top: 1047px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #47444e;
+}
+.Brand {
+  position: absolute;
+  width: 147px;
+  height: 32px;
+  left: 627px;
+  top: 980px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #25202f;
+}
+.text1 {
+  position: absolute;
+  width: 350px;
+  height: 121px;
+  left: 545px;
+  top: 1047px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #47444e;
+}
+.web {
+  position: absolute;
+  width: 203px;
+  height: 32px;
+  left: 1007px;
+  top: 980px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+
+  color: #25202f;
+}
+.text2 {
+  position: absolute;
+  width: 350px;
+  height: 121px;
+  left: 925px;
+  top: 1047px;
+
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  color: #47444e;
+}
+
+.yozuv {margin:10px;
+font-size: 30px;}
