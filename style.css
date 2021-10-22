@@ -19,7 +19,7 @@ div img:last-child {
   right: 1243px;
 }
 
-.menu {
+.menu { background-color: red;
   left: 305px;
   top: 72px;
   position: absolute;
